@@ -1,16 +1,16 @@
 /*
 ========================================================================================
-Create Database and Schemas
+Crear la base de datos y los esquemas
 ========================================================================================
-Script Purpose:
-	This script creates a new database name 'DataWarehouse' after checking if it already exists.
-	If the database exists, it is dropped and recreated. Additionally, the script sets up therre schemas within 
-	the database: 'bronze', 'silver' and 'gold'
+Propósito del script:
+	Este script crea una nueva base de datos llamada 'DataWarehouse' después de comprobar si ya existe.
+	Si la base de datos existe, se elimina y se vuelve a crear. Además, el script configura tres esquemas dentro 
+	de la base de datos: 'bronze', 'silver' y 'gold'
 
-WARNING:
-	Running this script will drop the entire 'DataWarehouse' database if exists.
-	All data in the database will be permanently deleted. Proceed with caution 
-	and ensure you have proper backups before running this script
+ADVERTENCIA:
+	La ejecución de este script eliminará toda la base de datos 'DataWarehouse' si existe.
+	Todos los datos de la base de datos se eliminarán permanentemente. Procede con precaución 
+	y asegúrate de contar con copias de seguridad adecuadas antes de ejecutar este script
 
 */
 
